@@ -29,9 +29,13 @@
     background: #4B1B89;
     color: #fff;
     cursor: pointer;
+    border-radius: 10px;
+    margin: 0 auto;
+    transition: 1s ease-in-out;
   }
   
   #myBtn:hover {
-    background: #ddd;
-    color: black;
+    background: #C0C0CA;
+    color: #4B1B89;
+    transform: scale(1.1);
   }
