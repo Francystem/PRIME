@@ -12,7 +12,7 @@
   .content {
     position: fixed;
     background: rgba(0, 0, 0, 0.5);
-    color: #f1f1f1;
+    color: #FFFFFF;
     width: 100%;
     padding: 70px;
     height: 100%;
@@ -48,6 +48,9 @@
     resize: vertical;
     margin-left: 15%;
     margin-bottom:30px;
+  }
+  h1{
+    line-height:45px;
   }
   /* Style the submit button */
 input[type=submit] {
