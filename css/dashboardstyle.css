@@ -11,3 +11,7 @@
     color: #4b1b89 !important;
     font-weight: bold;
 }
+
+.form-group{
+    width: 80%;
+}
