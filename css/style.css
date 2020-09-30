@@ -42,7 +42,7 @@
   input[type=text]{
     width: 70%;
     padding: 12px;
-    border: 1px solid #ccc;
+    border: 1px solid  #4B1B89;
     border-radius: 4px;
     box-sizing: border-box;
     resize: vertical;
@@ -74,6 +74,7 @@ input[type=submit] {
   margin-left:40%;
   color: #4B1B89;
   font-weight: 900;
+
  
 }
 .acc{
@@ -82,4 +83,7 @@ input[type=submit] {
   color: #4B1B89;
   margin-top: -2.5%;
 }
-
+.fa-arrow-down{
+  margin-left:47%;
+  color: #4B1B89;
+}
