@@ -102,3 +102,34 @@ input[type=submit] {
   margin-left: -22px;
   color: #4B1B89;
 }
+.fa-neos{
+  margin-left: -22px;
+  color: #4B1B89;
+}
+.fa-phone-alt{
+  margin-left: -22px;
+  color: #4B1B89;
+}
+label{
+  margin-left:15%;
+}
+.data{
+  margin-left:3.5%;
+}
+#network{
+  border: 1px solid #4B1B89;
+  color: #4B1B89;
+  padding: 10px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 20%;
+}
+#data{
+  border: 1px solid #4B1B89;
+  color: #4B1B89;
+  padding: 10px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 20%;
+  margin-bottom: 3%;
+}

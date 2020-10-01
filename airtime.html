@@ -17,6 +17,7 @@
 
   <!-- Custom styles for this template-->
   <link href="css/sb-admin-2.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 
 </head>
 
@@ -258,7 +259,66 @@
         <!-- Begin Page Content -->
         <div class="container-fluid">
 
+          <!-- Page Heading -->
+          <h3 class="h3 mb-4 text-center"  style="color:black;">Airtime|Data Purchase</h3>
+
+          <form action="action_page.php">
          
+                
+          <div class="row">
+            
+            <div class="col">
+              <input type="text" id="fname" name="firstname" placeholder="Savings A/C">
+            </div>
+          </div>
+
+         
+          <label for="Network">Select Network</label>
+
+          <select name="network" id="network" >
+            <option value=""></option>
+            <option value="Airtel">Airtel</option>
+            <option value="Etisalat">Etisalat</option>
+            <option value="Glo">Glo</option>
+            <option value="MTN">MTN</option>
+          </select>
+
+          <label for="data" class="data">Data Subscription</label>
+
+          <select name="data" id="data" >
+            <option value="None">None</option>
+            <option value="500MB">500MB</option>
+            <option value="750MB">750MB</option>
+            <option value="1GB">1GB</option>
+            <option value="1.5GB">1.5GB</option>
+            <option value="2GB">2GB</option>
+            <option value="3.5GB">3.5GB</option>
+            <option value="5GB">5GB</option>
+            <option value="8GB">8GB</option>
+            <option value="10GB">10GB</option>
+          </select> 
+
+          
+           
+          <div class="row">
+            
+            <div class="col">
+              <input type="text" id="fname" name="firstname"  placeholder="Amount"><i class="fab fa-neos"></i>
+            </div>
+          </div>
+
+          <div class="row">
+            
+            <div class="col">
+              <input type="text" id="fname" name="firstname" placeholder="Beneficiary Phone Number"><i class="fas fa-phone-alt"></i>
+            </div>
+          </div>
+          
+
+          <div class="row">
+            <input type="submit" value="Send">
+          </div>
+        </form>
         </div>
         <!-- /.container-fluid -->
 
