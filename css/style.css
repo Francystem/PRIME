@@ -90,10 +90,7 @@
   color: #4B1B89;
   margin-top: -2.5%;
 }
-.fa-arrow-down{
-  margin-left:47%;
-  color: #4B1B89;
-}
+
 .fa-intercom{
   margin-left: -22px;
   color: #4B1B89;
@@ -131,5 +128,14 @@ label{
   border-radius: 4px;
   cursor: pointer;
   width: 20%;
+  margin-bottom: 3%;
+}
+#cable{
+  border: 1px solid #4B1B89;
+  color: #4B1B89;
+  padding: 10px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 50%;
   margin-bottom: 3%;
 }
