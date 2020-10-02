@@ -15,3 +15,18 @@
 .form-group{
     width: 80%;
 }
+.jumbotron{
+    margin:auto;
+    background-color: #4b1b89;
+    color: #FFFFFF;
+    font-weight: bold;
+
+}
+.move{
+    margin-right: 10%;
+    
+}
+.fa-check-circle{
+    color: green;
+   
+}

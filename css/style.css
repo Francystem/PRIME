@@ -57,7 +57,7 @@
     line-height:45px;
   }
   /* Style the submit button */
-input[type=submit] {
+.submit {
   background-color: #4B1B89;
   color: white;
   padding: 10px 10px;
